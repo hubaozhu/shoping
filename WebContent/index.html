@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<title>首页</title>
+<style type="text/css">
+	#a{
+		background:red;
+		height:100px;
+	}
+	#b{
+		background:blue;
+		height:100px;
+	}
+	#c{
+		background:yellow;
+		height:100px;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 col-xs-4 col-lg-1" id="a">
+				Logo
+			</div>
+			<div class="col-md-6 col-xs-8" id="b">
+				<i style="color:#fff" class="glyphicon glyphicon-home"></i> Titile
+			</div>
+			<div class="col-md-4 hidden-xs" id="c">
+				Other
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-12">
+				<img src="images/gos.gif" class="img-thumbnail">
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-12">
+				<form class="form-inline" action="">
+				<div class="form-group">
+					<label class="control-label hidden-xs">商品名称</label>
+					<input class="form-control" placeholder="商品名称">
+				</div>
+				<div class="form-group">
+					<label class="control-label hidden-xs">商品类别</label>
+					<select class="form-control">
+						<option>服装类</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<button class="btn btn-primary btn-xs">保存</button>
+					<button class="btn btn-success btn-sm">保存</button>
+					<button class="btn btn-danger btn-md">保存</button>
+					<button class="btn btn-info btn-lg">保存</button>
+					<button class="btn btn-default">保存</button>
+				</div>
+				</form>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-12">
+				<table class="table table-bordered table-striped table-hover">
+					<tr class="danger">
+						<th>编号</th><th>名称</th><th>价格</th>
+					</tr>
+					<tr class="info">
+						<th>编号</th><th>名称</th><th>价格</th>
+					</tr>
+					<tr class="success">
+						<th>编号</th><th>名称</th><th>价格</th>
+					</tr>
+					<tr>
+						<th>编号</th><th>名称</th><th>价格</th>
+					</tr>
+					<tr>
+						<th>编号</th><th>名称</th><th>价格</th>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
