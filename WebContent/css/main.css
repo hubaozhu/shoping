@@ -1,0 +1,23 @@
+.header{
+	background:#1296DB;
+}
+.header .title{
+	color:#fafafa;
+}
+.header .user{
+	line-height:70px;
+	color:#fafafa;
+	font-size:16px;
+}
+.container{
+	border:1px solid #1296DB;
+}
+.footer{
+	background:#1296DB;
+	color:#fafafa;
+	font-size:16px;
+	height:50px;
+}
+.footer p{
+	line-height:40px;
+}
